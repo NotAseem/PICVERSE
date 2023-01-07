@@ -1,19 +1,44 @@
 body{
-    padding: 0;
-    margin: 0;
-    background-color: #57c2bc;
+    /*padding: 0;
+    margin: 0;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #040d15;
 }
 .button1{
-   width: 170px;
+   /*width: 170px;
    height: 50px;
    font-size: 20px;
    margin-left: 550px;
    margin-top: 120px;
    font-weight: bold;
-   background-color: #daf5f3;
+   background-color: #daf5f3;*/
+   position: relative;
+   display: inline-block;
+   padding: 12px 36px;
+   margin:10px 0;
+   color: #fff;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 20px;
+   letter-spacing: 2px;
+   border-radius: 40px;
+   background: linear-gradient(90deg,#755bea,#ff72c0);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: box-shadow, transform;
+   transition-property: box-shadow, transform;
+}
+.button1:hover, .button1:focus, .button1:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
 }
 .button2{
-    width: 170px;
+    /*width: 170px;
     height: 50px;
     font-size: 20px;
     margin-left: 550px;
@@ -21,21 +46,38 @@ body{
     font-weight: bold;
     background-color: #daf5f3;
     
-    margin-top: 20px;
+    margin-top: 20px;*/
+    position: relative;
+   display: inline-block;
+   padding: 12px 36px;
+   margin:10px 0;
+   color: #fff;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 20px;
+   letter-spacing: 2px;
+   border-radius: 40px;
+   background: linear-gradient(90deg,#0162c8,#55e7fc);
  }   
-
+ .button2:hover, .button2:focus, .button2:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+}
 h1{
-    font-size: 39px;
+    font-size: 55px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+    font-family: 'Caveat', cursive;
     -webkit-text-stroke: 1px#0c1112;
-    color: black;
+    color: white;
 }
 h2{
-    font-size: 33px;
+    font-size: 15px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    -webkit-text-stroke: 1px#0c1112;
+    margin-top: 10px;
+    /*-webkit-text-stroke: 1px#0c1112;*/
     color: white;
 }
 .splash{
@@ -44,10 +86,12 @@ h2{
     left: 0;
     width: 100%;
     height: 100vh;
-    background: black;
+    background: white;
     z-index: 200;
-    color: #cbf4f7;
-    font-size: 40px;
+    color: black;
+    font-size: 120px;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
     text-align: center;
     line-height: 90vh;
 }
